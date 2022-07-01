@@ -14,9 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "xcparse::Converter"
+               BuildableName = "Converter.framework"
+               BlueprintName = "Converter"
+               ReferencedContainer = "container:xcparse.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "xcparse::XCParseCore"
                BuildableName = "XCParseCore.framework"
                BlueprintName = "XCParseCore"
+               ReferencedContainer = "container:xcparse.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "xcparse::testUtility"
+               BuildableName = "testUtility.framework"
+               BlueprintName = "testUtility"
                ReferencedContainer = "container:xcparse.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,6 +70,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "xcparse::appThinningConverterTests"
+               BuildableName = "appThinningConverterTests.xctest"
+               BlueprintName = "appThinningConverterTests"
+               ReferencedContainer = "container:xcparse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference

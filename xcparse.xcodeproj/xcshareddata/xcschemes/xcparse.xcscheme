@@ -32,6 +32,16 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "xcparse::appThinningConverterTests"
+               BuildableName = "appThinningConverterTests.xctest"
+               BlueprintName = "appThinningConverterTests"
+               ReferencedContainer = "container:xcparse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "xcparse::xcparseTests"
                BuildableName = "xcparseTests.xctest"
                BlueprintName = "xcparseTests"
@@ -60,24 +70,6 @@
             ReferencedContainer = "container:xcparse.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-s /tmp/xcparse/Test-Xcode11.xcresult /tmp/xcparse/My\ Folder\ With\ Spaces"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-x /tmp/xcparse/Test-Xcode11.xcresult /tmp/xcparse/My\ Folder\ With\ Spaces"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "screenshots /tmp/xcparse/Test-Xcode11.xcresult /tmp/xcparse/My\ Folder\ With\ Spaces -v"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-s /tmp/xcparse/Test-Xcode11\ With\ Spaces.xcresult /tmp/xcparse/My\ Folder\ With\ Spaces"
-            isEnabled = "NO">
-         </CommandLineArgument>
-      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
